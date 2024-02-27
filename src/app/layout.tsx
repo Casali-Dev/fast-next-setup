@@ -1,8 +1,10 @@
 import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
-import './globals.css'
+
 import { cn } from '@/lib/utils'
+
+import './globals.css'
 
 export const fontSans = FontSans({
   subsets: ['latin'],
